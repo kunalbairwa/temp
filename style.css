@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+ /* scroll-behavior: smooth; */
+ font-family: sans-serif;
+}
+
+
+
+    
+
+body{
+    background-image:linear-gradient(rgb( 0,0,0,0.5),rgba(0,0,0,0.5)),url(https://assets.nflxext.com/ffe/siteui/vlv3/c7f07b68-7989-4ff7-a31e-11c17dcc2fea/fcf685b8-3f9f-42d8-9af3-4bb86fa5a3b8/IN-en-20240422-popsignuptwoweeks-perspective_alpha_website_large.jpg) ;
+    /* height: 100%; */
+    background-repeat: no-repeat;
+    background-size: 150% 100%;
+    /* width: 100%; */
+    
+}
+
+
+
+
+@media only screen and (min-width: 500px) {
+
+    .main{
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 32%;
+        position: absolute;
+        align-self: center;
+        height: 960px;
+        background-color: rgb(0,0,0,0.7);
+        border-radius: 0.4rem;
+    
+      
+    }
+
+    footer{
+    
+    width: 100%;
+    height: 400px;
+    margin-top: 350px;
+    background-color: rgba(0, 0, 0, 0.662);
+    position: relative;
+
+}
+    
+}
+
+
+
+@media only screen and (max-width: 414px ) {
+
+    body{
+        background-image: none;
+        position: absolute;
+        background-color: black;
+    }
+
+    .nav-container{
+        max-width: 100px;
+        margin: 0;
+
+    }
+
+    .container{
+     
+        position: relative;
+        max-width: 70%;
+    }
+
+
+
+    .all-items{
+        width: 450px;
+        max-width: 499px;
+        position: relative;
+    }
+
+    footer{
+        margin: -40px auto;
+        width: 50%;
+        height: 200px;
+        margin-top: 50px;
+        background-color: rgba(0, 0, 0, 0.662);
+        position: relative;
+    
+    }
+
+    
+
+   
+
+}
+
+
+svg{
+    
+    fill: rgb(229, 9, 20);
+    
+
+}
+
+.nav-container{ 
+    width: 190px;
+    height: 190px;
+    top:30%;
+    left: 7%;
+    position: relative;
+
+}
+
+nav{
+   width: 100%;
+   height: 100px;
+   background-color:transparent;
+   /* background-color: black; */
+   margin: auto;
+   position: relative;
+    
+}
+
+
+
+.container{
+    background-color:transparent;
+  width: 90%;
+  margin: auto;
+  height: 900px;
+    position: relative;
+}
+
+
+
+
+
+.all-items{
+
+    display: grid;
+    margin: 50px auto;
+
+
+}
+
+.Sign{
+
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-left: 70px ;
+    color: white;
+    padding: 20px;
+
+}
+
+.empass{
+
+        width: 70%;
+        height: 75px;
+        border-radius: 0.5rem;
+        border: solid 2px rgb(44, 44, 44) ;
+        background-color: rgba(25, 24, 24, 0.747);
+        border-color: #2c2c2c;
+        margin: 10px auto;
+        position: relative;
+        color: white;
+
+}
+
+input[type=email] {
+    /* color: #b2b2b2; */
+    font-size: 22px;
+    text-indent: 10px;
+
+
+}
+
+input[type=password] {
+    /* color: #b2b2b2; */
+    font-size: 22px;
+    text-indent: 10px;
+    caret-color: white;
+   
+    
+}
+
+
+
+
+.Sign-in-button{
+    margin: 10px auto;
+    height: 55px;
+    border-radius: 0.5rem;
+    border: none;
+    width: 70%;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(229,9,20);
+    font-family: sans-serif;
+}
+
+.Sign-in-button:hover{
+
+    background-color: rgb(219, 9, 10);
+}
+
+.Sign-in-button:active{
+    
+    background-color: rgb(129, 9, 10);
+}
+
+
+h2{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+     font-family: sans-serif;
+}
+
+
+.code{
+    margin: 10px auto;
+    height: 55px;
+    border-radius: 0.5rem;
+    border: none;
+    width: 70%;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(82, 82, 82, 0.753);
+    font-family: sans-serif;
+}
+
+.code:hover{
+
+    background-color: #70708080;
+    
+}
+
+
+.code:active{
+
+    background-color: #959595;
+
+}
+.forgot-password{
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.forgot-password:hover{
+
+    color: rgb(177, 177, 177);
+    text-decoration: underline;
+    
+}
+
+
+ .rm p{
+    font-size: 22px;
+    color: white;
+
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+}
+
+.sign-up p{
+
+    font-size: 22px;
+    color: rgb(165, 165, 165);
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-top: -20px;
+
+
+}
+
+.sign-up a{
+
+        color:white;
+        text-decoration: none;
+
+}
+
+.sign-up a:hover{
+
+    color:white;
+    text-decoration: underline;
+
+}
+
+.learn-more {
+
+    font-size: 18px;
+    color: #999;
+    margin: 30px auto;
+    margin-left: 100px;
+    
+    font-family: sans-serif;
+    
+}
+
+
+.learn-more-a{
+    color: rgb(0, 64, 255);
+    text-decoration: none;
+}
+
+.learn-more-a:hover{
+    color: rgb(0, 64, 255);
+    text-decoration: underline;
+}
+
+
+    
+
+
+
+    
+
+
+
+/* footer */
+
+/* footer{
+    
+    width: 100%;
+    height: 400px;
+    margin-top: 350px;
+    background-color: rgba(0, 0, 0, 0.662);
+    position: relative;
+
+} */
+
+
+
+
+.radhe-radhe{
+position:absolute;
+    top: 10%;
+    left: 10%;
+}   
+
+.radhe-radhe p{
+    font-size: 20px;
+    color: #999;
+}
+
+
+
+.pele {
+    margin-bottom: 20px;
+}
+
+
+
+
+.radhe-radhe a{
+    font-size: 18px;
+    text-decoration:underline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 300px;
+    color: #999;
+
+
+}
+
+
+.radhe-radhe2 {
+    margin-left: 210px;
+position: relative;
+    top: 40%;
+    /* left: 10%; */
+
+
+}
+
+.radhe-radhe2 a{
+    text-decoration:underline;
+    font-size: 18px;
+    margin-right: 175px;
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-link{
+
+    position:relative;
+    top: 50%;
+    margin-left: 190px;
+    /* left: 10%; */
+    
+
+}
+
+select{
+
+    width: 150px;
+    height:40px;border-radius: 0.3rem;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+    background-color: #2c2c2c65;
+   
+
+}
+
+
+/*  */
